@@ -4,12 +4,35 @@ void main() {
   runApp(const MyApp());
 }
 
+
+void test(){
+  // list
+  final days = ['monday', 'tuesday', "wednesday", "thursday", "friday"];
+
+  // set ~ unique set of elements
+  final id = {"001XS", "00XSZ", "00PXS", "00ZSZ", "00FRE"};
+
+  // map(object)
+  final person = {
+    "Name":"Human",
+    "Color":"Black",
+    "Age":99,
+    "Height":6.8
+  };
+
+  print(person);
+
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+
+    test();
+
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
