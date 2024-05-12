@@ -23,6 +23,7 @@ void main(){
   // OOP
   // - polymorphism (multiple form) - Allow multiple diff classes to be treated as objects if the same super-class
   //      - poly - multiple
+  // Abstraction - abstract classes cannot be instatiated
   
 }
 

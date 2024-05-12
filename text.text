@@ -1,0 +1,5 @@
+MaterialApp() - theming & navigation (soething like main layout)
+Scaffold() - appbar, body, etc for a invididual screens (something like a frag/component)
+in our home property
+BuildContext - shows the location of widget in a widget tree (just likenormla context in android, its shows the 
+location of an activity / current activity)
