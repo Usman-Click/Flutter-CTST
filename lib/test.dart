@@ -31,3 +31,22 @@ void main(){
   ({ String id,  String passCode, bool? isAive}) auth (){
     return (isAive: false, passCode: "22312", id: "DXQ42KWG64");
   }
+
+  void car (){
+    
+
+
+    void house(){
+
+    }
+
+    house();
+    house;
+
+    (){
+      print("object");
+    };
+
+    () => print("object;");
+
+  }
